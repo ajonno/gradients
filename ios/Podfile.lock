@@ -1,0 +1,30 @@
+PODS:
+  - BVLinearGradient (2.0.0):
+    - React
+  - React (0.41.2):
+    - React/Core (= 0.41.2)
+  - React/Core (0.41.2):
+    - React/cxxreact
+    - React/yoga
+  - React/cxxreact (0.41.2):
+    - React/jschelpers
+  - React/jschelpers (0.41.2)
+  - React/yoga (0.41.2)
+
+DEPENDENCIES:
+  - BVLinearGradient (from `../node_modules/react-native-linear-gradient`)
+  - React (from `../node_modules/react-native`)
+
+EXTERNAL SOURCES:
+  BVLinearGradient:
+    :path: ../node_modules/react-native-linear-gradient
+  React:
+    :path: ../node_modules/react-native
+
+SPEC CHECKSUMS:
+  BVLinearGradient: 2141b67ea06d9b1077ca68c9d6f89fa38c5f8450
+  React: 2b10c07d947dea71c144a33764e9162ed81e3825
+
+PODFILE CHECKSUM: dced4ebafce86eb2e970adc2d6529058c4eb14d7
+
+COCOAPODS: 1.1.1
